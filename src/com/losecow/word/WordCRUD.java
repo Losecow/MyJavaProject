@@ -146,18 +146,18 @@ public class WordCRUD implements ICRUD{
             e.printStackTrace();
         }
     }
-//    public void saveFile() {
-//        try {
-//            PrintWriter pr = new PrintWriter(new FileWriter(fname));
-//            for(Word one : list){
-//                pr.write(one.toFileString() + "\n");
-//            }
-//            pr.close();
-//            System.out.println("==> 데이터 저장 완료 !!!");
-//        } catch (IOException e){
-//            e.printStackTrace();
-//        }
-//    }
+    public void saveFile() {
+        try {
+            PrintWriter pr = new PrintWriter(new FileWriter(fname));
+            for(Word one : list){
+                pr.write(one.toFileString() + "\n");
+            }
+            pr.close();
+            System.out.println("==> 데이터 저장 완료 !!!");
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
 //
 //    public void searchLevel() {
 //        System.out.print("==> 원하는 레벨은? (1~3) ");
