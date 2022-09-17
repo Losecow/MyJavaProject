@@ -45,7 +45,7 @@ public class WordManager {
 //            else if (menu == 3) {
 //                wordCRUD.searchWord();
 //            }
-            if (menu == 4) {
+            else if (menu == 4) {
                 // create
                 wordCRUD.addItem();
             }
@@ -53,10 +53,11 @@ public class WordManager {
                 // update
                 wordCRUD.updateItem();
             }
-//            else if (menu == 6) {
-//                // delete
-//                wordCRUD.deleteItem();
-//            } else if (menu == 7) {
+            else if (menu == 6) {
+                // delete
+                wordCRUD.deleteItem();
+            }
+//          else if (menu == 7) {
 //                wordCRUD.saveFile();
 //            }
 
