@@ -7,7 +7,7 @@
 <img src = "https://github.com/Losecow/MyJavaProject/blob/master/photo/2.png">
 
 ### 2. 수준별 단어보기 메뉴 선택 시 결과 예시와 동일하게 잘 표현되는가? ( 최종보고서 2 사진 )
-<img src = "photo/2022-09-17 (1).png">
+<img src = "photo/2022-09-17 (14).png">
 
 ### 3. 단어 검색 메뉴 선택시 실행 결과 예시와 동일하게 단어 검색이 잘 되는가? ( 최종보고서 2 사진 )
 <img src = "photo/2022-09-17 (3).png">
