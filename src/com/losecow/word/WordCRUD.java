@@ -105,7 +105,6 @@ public class WordCRUD implements ICRUD{
         word.setMeaning(meaning);
         System.out.println("단어가 수정되었습니다. ");
     }
-
     public void deleteItem() {
         System.out.print("=> 삭제할 단어 검색 : ");
         String keyword = s.next();
@@ -163,10 +162,9 @@ public class WordCRUD implements ICRUD{
         int level = s.nextInt();
         listAll(level);
     }
-//
-//    public void searchWord() {
-//        System.out.print("==> 원하는 단어는? ");
-//        String keyword = s.next();
-//        listAll(keyword);
-//    }
+    public void searchWord() {
+        System.out.print("==> 원하는 단어는? ");
+        String keyword = s.next();
+        listAll(keyword);
+    }
 }
