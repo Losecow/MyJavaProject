@@ -45,14 +45,14 @@ public class WordManager {
 //            else if (menu == 3) {
 //                wordCRUD.searchWord();
 //            }
-//            if (menu == 4) {
-//                // create
-//                wordCRUD.addItem();
-//            }
-//            else if (menu == 5) {
-//                // update
-//                wordCRUD.updateItem();
-//            }
+            if (menu == 4) {
+                // create
+                wordCRUD.addItem();
+            }
+            else if (menu == 5) {
+                // update
+                wordCRUD.updateItem();
+            }
 //            else if (menu == 6) {
 //                // delete
 //                wordCRUD.deleteItem();

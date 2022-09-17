@@ -76,36 +76,35 @@ public class WordCRUD implements ICRUD{
         System.out.println("---------------------------------------\n");
         return idlist;
     }
-//    public void listAll(int level){
-//        int j = 0;
-//        System.out.println("\n---------------------------------------");
-//        for(int i = 0; i < list.size(); i++) {
-//            int ilevel = list.get(i).getLevel();
-//            if (ilevel != level) continue;
-//            System.out.print((j+1) + " ");
-//            System.out.println(list.get(i).toString());
-//            j++;
-//        }
-//        System.out.println("---------------------------------------\n");
-//    }
-//
+    public void listAll(int level){
+        int j = 0;
+        System.out.println("\n---------------------------------------");
+        for(int i = 0; i < list.size(); i++) {
+            int ilevel = list.get(i).getLevel();
+            if (ilevel != level) continue;
+            System.out.print((j+1) + " ");
+            System.out.println(list.get(i).toString());
+            j++;
+        }
+        System.out.println("---------------------------------------\n");
+    }
+
     public void getOut() {
         System.out.println("\n프로그램 종료! 다음에 만나요~");
     }
-//
-//    public void updateItem() {
-//        System.out.print("=> 수정할 단어 검색 : ");
-//        String keyword = s.next();
-//        ArrayList<Integer> idlist = this.listAll(keyword);
-//        System.out.print("==> 수정할 번호 선택 : ");
-//        int id = s.nextInt();
-//        s.nextLine();
-//        System.out.print("==> 뜻 입력 : ");
-//        String meaning = s.nextLine();
-//        Word word = list.get(idlist.get(id-1));
-//        word.setMeaning(meaning);
-//        System.out.println("단어가 수정되었습니다. ");
-//    }
+    public void updateItem() {
+        System.out.print("=> 수정할 단어 검색 : ");
+        String keyword = s.next();
+        ArrayList<Integer> idlist = this.listAll(keyword);
+        System.out.print("==> 수정할 번호 선택 : ");
+        int id = s.nextInt();
+        s.nextLine();
+        System.out.print("==> 뜻 입력 : ");
+        String meaning = s.nextLine();
+        Word word = list.get(idlist.get(id-1));
+        word.setMeaning(meaning);
+        System.out.println("단어가 수정되었습니다. ");
+    }
 //
 //    public void deleteItem() {
 //        System.out.print("=> 삭제할 단어 검색 : ");
