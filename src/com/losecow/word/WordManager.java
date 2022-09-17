@@ -39,9 +39,9 @@ public class WordManager {
                 // list
                 wordCRUD.listAll();
             }
-//            else if (menu == 2) {
-//                wordCRUD.searchLevel();
-//            }
+            else if (menu == 2) {
+                wordCRUD.searchLevel();
+            }
 //            else if (menu == 3) {
 //                wordCRUD.searchWord();
 //            }
